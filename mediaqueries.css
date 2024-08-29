@@ -1,0 +1,50 @@
+header{
+    background-color: lightcoral;
+}
+nav{
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+a{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+#portfolio, #about, h1{
+    text-align: center;
+}
+
+.insidepro{
+    display: flex; 
+    justify-content: center;    
+    align-items: center;          
+}
+.proj1,.proj2{
+    background-color: lightgreen;
+    width: 400px;
+    margin: 10px;
+    text-align: center;    
+}
+
+
+#contact{
+    text-align: center;
+}
+
+
+footer{
+    background-color: lightcoral;
+    text-align: center;
+    color: blue;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:850px){
+    nav,.insidepro{
+        flex-direction: column;
+    }
+}
